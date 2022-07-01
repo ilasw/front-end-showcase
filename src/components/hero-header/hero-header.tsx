@@ -3,7 +3,7 @@ import {FCWithChildren} from "@/types/components-shared";
 import {HeroHeaderProps} from "@/components/hero-header/hero-header.props";
 
 export const HeroHeader: FCWithChildren<HeroHeaderProps> = (props) => {
-  const {children, className, heading, kicker, copy, ...attrs} = props;
+  const {children, className, ...attrs} = props;
   return <header
       className={classNames("relative flex items-center min-h-[100vh] py-16 leading-6 text-neutral-900", className)}
       {...attrs}
@@ -40,7 +40,8 @@ export const HeroHeader: FCWithChildren<HeroHeaderProps> = (props) => {
           di punta del suo team.<br/>
           <strong>Pomeriggio:</strong> si metterà in pratica quanto spiegato in un workshop pratico.
         </p>
-        <p className="mx-0 mt-6 mb-0 leading-10"><strong className={'text-2xl font-semibold'}>🙋‍ A chi è rivolta</strong><br/>
+        <p className="mx-0 mt-6 mb-0 leading-10"><strong className={'text-2xl font-semibold'}>🙋‍ A chi è
+          rivolta</strong><br/>
           Studenti, lavoratori ed appassionati del front-end sul web
         </p>
         <p className="mx-0 mt-6 mb-0 leading-10"><strong className={'text-2xl font-semibold'}>🎯 Obiettivi</strong><br/>

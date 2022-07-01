@@ -1,4 +1,3 @@
-import {ComponentProps, ReactElement} from "react";
+import {ComponentProps} from "react";
 
-export type HeroHeaderProps = ComponentProps<'header'>
-    & Record<'heading' | 'copy' | 'kicker', string|ReactElement>
+export type HeroHeaderProps = ComponentProps<'header'>;
