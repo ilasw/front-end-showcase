@@ -32,7 +32,7 @@ export const HeroHeader: FCWithChildren<HeroHeaderProps> = (props) => {
       </h1>
       <div className="mt-6 font-sans text-xl tracking-tight leading-10 text-blue-900">
         <p className="m-0 text-2xl leading-10">
-          Front-end Showcase vuole essere la conferenza che mette insieme le aziende più innovative del territorio
+          Front-end Showcase vuole essere la conferenza che mette insieme le aziende migliori del territorio
           per portare sul palco le più innovative tecnologie in uso.
         </p>
         <p className="mx-0 mt-6 mb-0 leading-10"><strong className={'text-2xl font-semibold'}>📅 Format</strong><br/>
